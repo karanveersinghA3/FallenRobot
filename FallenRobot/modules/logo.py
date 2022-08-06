@@ -250,7 +250,7 @@ LOGO_LINKS = [
 ]
 
 
-@register(pattern="^/logo ?(.*)")
+@register(pattern="^/Futao ?(.*)")
 async def lego(event):
     quew = event.pattern_match.group(1)
     if event.sender_id != OWNER_ID and not quew:
@@ -302,5 +302,5 @@ __mod_name__ = "Lᴏɢᴏ​"
 __help__ = """
 I can create some beautiful and attractive logo for your profile pics.
 
-❍ /logo (Text) *:* Create a logo of your given text with random view.
+❍ /Futaro (Text) *:* Create a logo of your given text with random view.
 """
