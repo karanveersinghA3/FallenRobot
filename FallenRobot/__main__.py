@@ -536,7 +536,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="ᴏᴩᴇɴ ʜᴇʀᴇ",
-                            callback_data="helpback",
+                            callback_data="help_back",
                         )
                     ],
                 ]
@@ -781,7 +781,7 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.sendAnimation(
-                f"@{SUPPORT_CHAT}",https://telegra.ph/file/03aea5fb8f65dd872f51d.jpg
+                f"@{SUPPORT_CHAT}"",
                 animation="",
                 caption=f"""
 ㅤㅤ🥀 {BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ...
